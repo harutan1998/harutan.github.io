@@ -1,0 +1,283 @@
+body {
+    font-family: "Microsoft Yahei", sans-serif;
+    font-weight: lighter;
+}
+ 
+header {
+    background-image: url(image/work_01.jpg);
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0 px;
+}
+ 
+#title {
+    display: inline-block;
+    font-size: 72px;
+	font-weight : normal;
+    padding-top: 50px;
+    width: 960px;
+	text-shadow: -2px -2px white, 2px 2px #333
+}
+ 
+#titlebottom {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 960px;
+    font-size: 20px;
+    padding: 16px 70px 70px 70px;
+    color: black;
+	line-height:150%; 
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+
+
+.sec_01 .pics3{
+    display: flex;
+    display: -webkit-flex;
+}
+
+.sec_01 .pics3 li .pic{
+    width: 40%;
+    height: 40%;
+	border-radius:50%
+}
+
+.sec_01 .pics3 li{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+	margin:-20 px;
+	padding:0 px;
+	list-style-type:none
+}
+
+.word{
+	color: black;
+	line-height:150%; 
+}
+ 
+
+ 
+#sec_02 {
+    width: 60%;
+    height: 1020px;
+    margin: 0 auto;
+}
+ 
+#sec_02 div div:first-child {
+    float: left;
+    width: 320px;
+    height: 240px;
+    margin-top: 150px;
+}
+ 
+#sec_02 div div:nth-child(2) {
+    float: right;
+    width: 320px;
+    height: 240px;
+    margin-top: 130px;
+}
+ 
+#sec_02 img {
+    width: 35%;
+    height: 30%;
+}
+ 
+#sec_02 img:first-child {
+    float: left;
+    margin-top: 80px;
+}
+ 
+.imgright {
+    float: right;
+    margin-top: 50px;
+	margin-left: 23%;
+	
+}
+ 
+#sec_02 p:first-child {
+    font: 24px bold;
+}
+ 
+ 
+ 
+#sec_03 {
+    width: 80%;
+    height: 580px;
+    margin: 0 auto;
+}
+ 
+#sec_03>div:first-child {
+    font-size: 48px;
+    text-align: center;
+    margin: 90px auto 80px auto;
+}
+ 
+#gallery {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+#gallery div {
+    width: 280px;
+    height: 280px;
+}
+ 
+#gallery img {
+    display: table-cell;
+    text-align: center;
+	width: 40%;
+    height: 40%;
+	
+}
+ 
+
+ 
+#sec_04 {
+    width: 60%;
+    height: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+ 
+#sec_04 div:first-child {
+    font-size: 48px;
+    margin-top: 100px;
+}
+ 
+.pic01{
+	float:left;
+    width:50%;
+	
+}
+
+.pic02{
+	float:right;
+	width:50%;
+}
+
+#sec_04 img {
+    width: 85%;
+    height: 85%;
+    margin-top: 50px;
+}
+ 
+ 
+ 
+#contacts {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+}
+ 
+#contacts>div {
+    width: 60%;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+#contacts>div>div {
+    width: 30%;
+    height: 560px;
+    margin-top: 70px;
+}
+ 
+#contacts>div>div:first-child {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+}
+ 
+#contacts input {
+    width: 23%;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 200, 200);
+}
+ 
+#fell {
+    text-align: center;
+    vertical-align: middle;
+    width: 23%;
+    height: 110px;
+    line-height: 110px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+ 
+#email {
+    height: 50px;
+    margin-left: 50px;
+}
+ 
+#subject {
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+ 
+#message {
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 140px;
+}
+ 
+#send {
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: #000000;
+    color: #ffffff;
+}
+ 
+#con {
+    text-align: left;
+    width: 360px;
+    height: 370px;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+ 
+#con p:first-child {
+    font-size: 48px;
+}
+ 
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin: 0 auto;
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+}
+ 
+footer>div {
+    width: 75%;
+    height: 310px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+ 
+footer div div {
+    width: 150px;
+    height: 200px;
+}
+ 
+footer div div:last-child {
+    width: 20%;
+    height: 200px;
+}
+ 
+footer div div p:first-child {
+    color: #ffffff;
+}
